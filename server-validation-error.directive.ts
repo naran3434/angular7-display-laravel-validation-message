@@ -17,7 +17,6 @@ export class ServerValidationErrorDirective implements OnInit {
     if (this.errors !== null && Object.keys(this.errors).length > 0 && this.errors.hasOwnProperty(this.label)) {
       this.element.nativeElement.innerHTML =
         this.errors[this.label][0].replace(/([\.][\d{1}][\.])/g, ' ').replace(/_/g, ' ');
-      this.element.nativeElement.style.fontSize = '90%';
     }
   }
 }
