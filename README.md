@@ -1,1 +1,2 @@
-# angular7-display-laravel-validation-message
+# Angular 7 Directive to Display Laravel Validation Message
+
